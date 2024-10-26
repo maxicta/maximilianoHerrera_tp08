@@ -1,0 +1,142 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(38,0,62,1) 0%, rgba(3,37,74,1) 100%, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5vw;
+    margin-top: 1vh;
+    color: black;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-bottom: 1px solid black;
+
+    nav ul {
+        display: flex;
+        gap: 7vw;
+        color: black;
+        font-family: "Oxanium", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        transition: color 0.3s ease;
+    }
+
+    a:hover{
+        color: rgb(163, 163, 163);
+        border-bottom: 2px solid rgb(163, 163, 163);
+    }
+}
+
+.Hero {
+    font-family: "Libre Franklin", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+/*     margin-left: 10vh;
+ */ align-items: center;
+    border-bottom: 5px solid rgb(163, 163, 163);
+    
+    .FotoPerfil {
+        border-radius: 50%;
+        border: 2px solid transparent;
+        padding: 50px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        max-width: 50vw;
+        margin-top: 20px;
+    }
+
+    .Redes {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 60px;
+        font-size: 30px;
+    }
+    i {
+        transition: color 5s ease-in;
+        transition: transform .5s;
+
+    }
+    i:hover {
+        color: rgb(163, 163, 163);
+        transform: scale(1.5);
+    }
+}
+
+.Proyectos {
+    b {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    .Boot {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+    
+    
+
+        article {
+            width: 45%;
+            background-color: slategray;
+            padding: 10px;
+            background-color: transparent;
+            transition: color 1s ease;
+    }
+    article:hover {
+        background-color: violet;
+    }
+        img {
+            width: 100%;
+            margin-top: 10vh;
+    }
+    h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+
+}
+
+.Formulario {
+    justify-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+    margin-top: 10vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
